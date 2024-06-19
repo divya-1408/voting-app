@@ -1,0 +1,79 @@
+/* src/components/CandidateProfiles.css */
+
+.candidate-profiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.candidate-profiles h1 {
+    font-size: 2.5em; /* Increase the font size */
+    margin-bottom: 20px;
+}
+
+.candidates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.candidate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.candidate input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.candidate-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.candidate-input {
+    margin-top: 10px;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.final-submit {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #186e25;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.final-submit:hover {
+    background-color: #186e25;
+}
+
+.upd{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3fc0d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upd {
+    background-color: #3fc0d4;
+}
