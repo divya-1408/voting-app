@@ -36,10 +36,6 @@ const VotePage = () => {
         }, 5000);
     };
 
-    const handleBack = () => {
-        navigate('/candidate-profiles');
-    };
-
     const setPassword = sessionStorage.getItem('setPassword');
 
     const handleResult = () => {
@@ -74,9 +70,8 @@ const VotePage = () => {
                 <h4>Total Votes Cast: {totalVotes}</h4>
             </div>
             <div className="buttons-container">
-            <button className="back-button" onClick={handleBack}>close</button>
             <div className="spacer"></div>
-                <button className="result-button" onClick={handleResult}>Result</button>
+                <button className="result-button" onClick={handleResult}>Close polling</button>
             </div>
         </div>
     );

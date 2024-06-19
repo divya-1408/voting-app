@@ -76,25 +76,13 @@ button:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    -moz-box-align: center;
 }
 
 .result-button:hover {
     background-color: #218838;
 }
 
-.spacer {
-    flex: 1;
-}
 
-.back-button {
-    padding: 10px 30px;
-    background-color: #d8563c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-.back-button:hover {
-    background-color: #d8563c;
-}
+
